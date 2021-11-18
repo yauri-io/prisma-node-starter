@@ -1,0 +1,24 @@
+{
+  "name": "prisma-node-starter",
+  "version": "1.0.0",
+  "description": "Prisma starter project example",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:sync": "npx prisma db pull && npx prisma generate"
+  },
+  "keywords": [
+    "prisma"
+  ],
+  "author": "y-io",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^3.5.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.5.0"
+  }
+}
